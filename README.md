@@ -9,3 +9,9 @@ Contributers:
 Hanson Sun (his ITGS IA)
 Kevin Wei
 Alice Yang
+
+
+To do:
+- move signup button
+- google docs link
+- animation lag
