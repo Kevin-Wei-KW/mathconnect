@@ -93,6 +93,14 @@ if (document.getElementById("big")) {
 
 stick();
 
+function signupclick() {
+
+
+    window.location.assign("html/signup.html");
+
+}
+
+
 AOS.init({
     disable: 'mobile',
     duration: 900,
