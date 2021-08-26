@@ -1,0 +1,86 @@
+.form{
+	position: relative;
+	z-index: 100;
+	display: flex;
+	max-width:900px;
+	margin:auto;
+	flex-direction: column;
+	padding:3rem;
+	overflow: hidden;
+	padding-bottom:1rem;
+	margin-bottom:1rem;
+
+}
+.form label{
+	display: flex;
+	align-content: left;
+	text-align: left;
+	font-size: 1.5rem;
+}
+input{
+	display:flex;
+	border: none;
+}
+.formsection {
+	background: none;
+	height:50px;
+  width: 100%;
+  padding: 1rem;
+  border:none;
+  box-shadow: 0px 1px black;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+  transition: box-shadow 0.5s, border 0.5s;
+  margin-right:auto;
+  align-self: left;
+  align-content: left;
+  text-align: left;
+  display:block;
+}
+
+.formsection:focus{
+	width:100%;
+	outline:none;
+  background: white;
+  border-bottom: none;
+  border-radius:none;
+  box-shadow: 0px 3px black;
+}
+
+#formsubmit {
+	outline: none;
+	margin:auto;
+  color: white;
+  padding: 12px 20px;
+  border: none !important;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  align-self: left;
+  display:flex;
+  transform:scale(1);
+  transition: border-radius 0.5s, transform 0.5s;
+  background: linear-gradient(-45deg, #FFA600, #FF6B00);
+}
+
+#formsubmit:hover {
+	transform: scale(1.2);
+	border-radius:2rem;
+	background: linear-gradient(-45deg, #FFA600, #FF6B00);
+	background-size: 400% 400%;
+	animation: gradient 2.5s ease infinite;
+	  
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}

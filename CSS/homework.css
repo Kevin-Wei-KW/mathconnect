@@ -1,0 +1,43 @@
+.content{
+
+	padding-top:1rem !important;
+	max-width:90%;
+	min-width: 100px;
+	position: relative;
+	z-index: 100;
+
+
+}
+iframe{
+	height:1200px;
+	max-width:99vw;
+	background:rgba(231, 231, 231, 0.575);
+	
+	
+}
+body{
+	position: relative;
+	z-index: 100;
+	filter:blur(10px);
+	-webkit-filter:blur(10px);
+	background:rgb(247, 247, 252);
+	backdrop-filter: opacity(1);
+}
+
+@media screen and (min-width: 600px) {
+#banner h1{
+	font-size: 3rem;
+}
+iframe{
+	height:2500px;
+}
+content{
+	max-width:1000px;
+	width:95vw;
+	padding-left:0;
+	padding-right:0;
+
+}
+
+}
+

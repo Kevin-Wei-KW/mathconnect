@@ -1,0 +1,11 @@
+.content{
+	height:100%;
+	display:block;
+	position: relative;
+	z-index: 100;
+}
+@media screen and (max-width: 600px) {
+iframe{
+	height:2600px;
+}
+}
