@@ -15,3 +15,4 @@ Alice Yang
 To do:
 - move signup button
 - google docs link
+- analytics and gtm
