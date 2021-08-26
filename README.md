@@ -15,4 +15,3 @@ Alice Yang
 To do:
 - move signup button
 - google docs link
-- animation lag
